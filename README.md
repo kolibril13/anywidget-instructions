@@ -54,3 +54,7 @@ For publishing:
 13. python -m build .
 14. hatch publish
 
+
+
+twine upload -r testpypi dist/*
+twine upload dist/*
