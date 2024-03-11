@@ -4,14 +4,38 @@
 npm create anywidget@latest
 ```
 
-
-
 ```
 npm install
-npm run build
+```
 
 python3.11 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]" 
+```
+```
+npm i @tldraw/tldraw
+```
+
+```
+npm run dev
+```
+
+
+
+```
+# second terminal
+jupyterlab
+```
+
+```
+npm run build
+python -m build .
+```
+
+
+```
+# publish
+twine upload -r testpypi dist/*
+twine upload dist/*
 ```
 
 Your project should now look like this:
